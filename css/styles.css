@@ -698,7 +698,7 @@ pointer-events: auto;
 
 .modal-input:focus+.modal-icon {
     fill: #4D5AE5;
-}
+    }
 
 .modal-form-textarea {
     margin-bottom: 16px;
@@ -750,7 +750,7 @@ pointer-events: auto;
     margin-right: 8px;
 }
 
-.modal-checkbox:checked+.modal-terms-label .modal-terms-checkbox {
+.modal-checkbox:checked+.modal-terms-label .modal-terms-checkbox  {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -775,7 +775,7 @@ pointer-events: auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
     cursor: pointer;
-    margin: 24px auto;
+    margin: 24px auto 0;
     padding: 16px 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
